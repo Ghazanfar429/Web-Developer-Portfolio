@@ -1,0 +1,217 @@
+/* ---------General-Setting----------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Inter", "Prata", serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.margin {
+  margin-top: 2rem;
+}
+
+.margin-btm {
+  margin-bottom: 5rem;
+}
+
+/* ---------Header-Section----------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #999;
+  font-weight: 400;
+  margin: 3rem 0 6rem 0;
+}
+.ham {
+  display: none;
+  visibility: 0;
+}
+.btn {
+  font-family: "parta";
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: black;
+  background-color: yellow;
+  padding: 2rem 4rem;
+  border: none;
+}
+
+.brand-name {
+  font-family: "Prata";
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+li:hover {
+  background-color: #333;
+}
+
+/* ---------Intro-Section----------- */
+
+.intro-section {
+  display: grid;
+  column-gap: 10rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+.heading {
+  font-family: "Prata";
+  color: aliceblue;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-family: "inter";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 5rem;
+}
+
+.partner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.tinder {
+  display: flex;
+  align-items: center;
+}
+
+/* ---------features-Section----------- */
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  gap: 14rem;
+  overflow-wrap: normal;
+  margin-bottom: 5rem;
+}
+
+.spense,
+.yelp {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #999;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.img {
+  margin-bottom: 1rem;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-family: "parta";
+  font-weight: 400;
+  font-size: 4.8rem;
+  color: aliceblue;
+}
+.arrow {
+  font-size: 3.2rem;
+  padding-left: 1rem;
+}
+
+/* ---------Co-Founder-Section----------- */
+.co-founder {
+  max-width: 140rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  gap: 14rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #999;
+  background-color: #2e3038;
+  font-family: "Inter";
+  padding: 5rem 1rem;
+}
+
+.co-founder h1 {
+  font-family: "prta";
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: aliceblue;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/* ---------Collab-section----------- */
+
+.collab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  column-gap: 14rem;
+  font-size: 1.8rem;
+  color: #999;
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.collab h2 {
+  font-family: "parta";
+  font-size: 4.2rem;
+  font-weight: 400;
+  color: aliceblue;
+  margin-bottom: 1rem;
+}
+
+.collab p {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/* ---------Footer-Section----------- */
+
+footer {
+  background-color: #2e3038;
+  padding: 2rem 1rem;
+  font-size: 1.8rem;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ftr {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

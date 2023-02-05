@@ -1,0 +1,153 @@
+/* ---------Media-Quries----------- */
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 100rem;
+  }
+  .features {
+    justify-content: space-between;
+  }
+  .spense,
+  .yelp {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #999;
+    font-family: "Inter";
+    font-weight: 400;
+  }
+
+  .img {
+    max-width: 40rem;
+  }
+  .site {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .container {
+    max-width: 75rem;
+  }
+
+  .header {
+    justify-content: space-between;
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    padding: 1.5rem 3rem;
+  }
+
+  .heading {
+    font-size: 3.2rem;
+  }
+
+  .features {
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .img {
+    max-width: 37rem;
+  }
+
+  .site {
+    margin: 0;
+  }
+
+  .co-founder {
+    max-width: 75rem;
+    gap: 0;
+  }
+  .collab {
+    gap: 0;
+  }
+}
+
+@media (max-width: 48.75em) {
+  .container {
+    max-width: 70rem;
+    margin: 0 5rem;
+    overflow: hidden;
+  }
+  .nav {
+    display: none;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .ham {
+    visibility: visible;
+    display: inherit;
+  }
+
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    font-size: 1.6rem;
+  }
+
+  .partner-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .img {
+    max-width: fit-content;
+  }
+
+  .site {
+    margin: 0;
+    font-size: 3.6rem;
+  }
+
+  .co-founder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .co-founder h1 {
+    font-size: 3.6rem;
+  }
+
+  .co-founder p {
+    font-size: 1.6rem;
+  }
+
+  .collab {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 30.31em) {
+  .container {
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+  .heading {
+    font-size: 2.8rem;
+  }
+  .spense p {
+    margin-bottom: 1rem;
+  }
+  .co-founder h1 {
+    font-size: 3.2rem;
+  }
+}
